@@ -25,10 +25,10 @@ This project demonstrates how blockchain can be used to secure healthcare data, 
                                                    |  (Ethereum)    |
                                                    +----------------+
 ```
-Architecture Overview
-- Frontend (DApp): User interface for patients and doctors
-- Smart Contracts: Handle record storage, access control, and validation
-- Blockchain Network: Ensures immutability and decentralization
+📐 **Architecture Overview**
+- 🌐 **Frontend (DApp):** User interface for patients and doctors
+- 🧠 **Smart Contracts:** Handle medical record storage, access control, and validation
+- ⛓️ **Blockchain Network:** Ensures data immutability, transparency, and decentralization
 ## 🧰 Technologies Used
 - ⛓️ **Ethereum Blockchain**
 - 🧠 **Solidity** – Smart contract development
