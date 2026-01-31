@@ -56,10 +56,10 @@ emr-dapp-blockchain/
 
 ## ⚙️ How to Run the Project
 ### 🧱 Prerequisites
-- Node.js (v16+ recommended)
-- MetaMask browser extension
-- Ganache (local blockchain) or Ethereum testnet
-- Truffle or Hardhat installed globally
+- 🟢 Node.js (v16+ recommended)
+- 🦊 MetaMask browser extension
+- 🧪 Ganache (local blockchain) or 🌐 Ethereum testnet
+- 🛠️ Truffle or Hardhat (installed globally)
 
 ⬇️ Installation Steps
   ```bash
@@ -71,21 +71,21 @@ emr-dapp-blockchain/
 🚀 Run the Application  
 1️⃣ Start local blockchain (🍫 Ganache)  
 2️⃣ 🧪 Deploy smart contracts:  
-   ```bash
-   truffle migrate
-   ```
+```bash
+truffle migrate
+```
 or
-  ```bash
-  npx hardhat run scripts/deploy.js
-  ```
+```bash
+npx hardhat run scripts/deploy.js
+```
 3️⃣ 📁 Start IPFS daemon
-    ```bash
-    ipfs daemon
-    ```
+```bash
+ipfs daemon
+```
 4️⃣ 🌐 Run the frontend
-    ```bash
-    npm start
-    ```
+```bash
+npm start
+```
 5️⃣ Connect MetaMask to the local/test network
 - Open the frontend in your browser
 - Connect MetaMask to Ganache network
