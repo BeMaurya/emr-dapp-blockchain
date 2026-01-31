@@ -40,6 +40,7 @@ emr-dapp-blockchain/
 - 🌐 **Frontend (DApp):** User interface for patients and doctors
 - 🧠 **Smart Contracts:** Handle medical record storage, access control, and validation
 - ⛓️ **Blockchain Network:** Ensures data immutability, transparency, and decentralization
+  
 ## 🧰 Technologies Used
 - ⛓️ **Ethereum Blockchain**
 - 🧠 **Solidity** – Smart contract development
@@ -53,40 +54,38 @@ emr-dapp-blockchain/
 - 🎨 **CSS**
 - 🟨 **JavaScript**
 
-
-
 ## ⚙️ How to Run the Project
-🧱 Prerequisites
+### 🧱 Prerequisites
 - Node.js (v16+ recommended)
 - MetaMask browser extension
 - Ganache (local blockchain) or Ethereum testnet
 - Truffle or Hardhat installed globally
 
 ⬇️ Installation Steps
-```bash
-git clone https://github.com/BeMaurya/emr-dapp-blockchain.git
-cd emr-dapp-blockchain
-npm install
-```
+  ```bash
+  git clone https://github.com/BeMaurya/emr-dapp-blockchain.git
+  cd emr-dapp-blockchain
+  npm install
+  ```
 
-🚀 Run the Application
-1️⃣ Start local blockchain (🍫 Ganache)
-2️⃣ 🧪 Deploy smart contracts:
-```bash
-truffle migrate
-```
+🚀 Run the Application  
+1️⃣ Start local blockchain (🍫 Ganache)  
+2️⃣ 🧪 Deploy smart contracts:  
+   ```bash
+   truffle migrate
+   ```
 or
-```bash
-npx hardhat run scripts/deploy.js
-```
+  ```bash
+  npx hardhat run scripts/deploy.js
+  ```
 3️⃣ 📁 Start IPFS daemon
-```bash
-ipfs daemon
-```
+    ```bash
+    ipfs daemon
+    ```
 4️⃣ 🌐 Run the frontend
-```bash
-npm start
-```
+    ```bash
+    npm start
+    ```
 5️⃣ Connect MetaMask to the local/test network
 - Open the frontend in your browser
 - Connect MetaMask to Ganache network
@@ -99,6 +98,11 @@ npm start
 - 🌍 Explore decentralized application (DApp) development
 - 🧠 Gain hands-on experience with Web3 technologies
 
+## ❤️ Contributions
+Contributions are welcome!
+> Fork the repo → Create a branch → Add feature → Submit PR
+
+</br></br>
 <div align="center">
 <p>📘 This project is created strictly for educational and learning purposes.</p>
 <p>⭐ If you find this project helpful, feel free to star the repository!</p>
