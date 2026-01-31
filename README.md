@@ -4,6 +4,16 @@ A decentralized Electronic Medical Records (EMR) system built using Blockchain t
 
 This project demonstrates how blockchain can be used to secure healthcare data, prevent tampering, and enable trusted sharing of medical records between patients, doctors, and hospitals.
 
+## 📁 Project Structure
+```text
+emr-dapp-blockchain/
+├── contracts/      # Smart contracts
+├── frontend/       # UI (Doctor, Patient, Insurer)
+├── migrations/     # Truffle deployment scripts
+├── report/         # Project report
+└── screenshots/    # UI & architecture images
+```
+
 ## 🚀 Features
 - 🔐 Secure storage of medical records using Blockchain
 - 👤 Patient-owned data with controlled access permissions
@@ -11,7 +21,8 @@ This project demonstrates how blockchain can be used to secure healthcare data, 
 - 🧾 Immutable medical history (tamper-proof records)
 - 🔄 Transparent record updates and access logs
 - 🌐 Decentralized architecture (no single point of failure)
-- 🧪 Ideal for educational and research purposes
+- 🧪 Ideal for educational and research purposes.
+
 
 ## 🏗️ System Architecture
 ```text
@@ -42,15 +53,7 @@ This project demonstrates how blockchain can be used to secure healthcare data, 
 - 🎨 **CSS**
 - 🟨 **JavaScript**
 
-## 📁 Project Structure
-```text
-emr-dapp-blockchain/
-├── contracts/      # Smart contracts
-├── frontend/       # UI (Doctor, Patient, Insurer)
-├── migrations/     # Truffle deployment scripts
-├── report/         # Project report
-└── screenshots/    # UI & architecture images
-```
+
 
 ## ⚙️ How to Run the Project
 🧱 Prerequisites
